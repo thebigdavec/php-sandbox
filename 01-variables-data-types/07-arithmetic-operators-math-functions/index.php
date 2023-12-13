@@ -34,10 +34,24 @@ $output .= "rand(1, 10) " . rand(1, 10) . "<br>";
 
 // Rounding numbers
 $output .= "<br>round(2.4) " . round(2.4) . "<br>";
-$output .= "<br>round(4.7) " . round(4.7) . "<br>";
-$output .= "<br>ceil(2.4) " . ceil(2.4) . "<br>";
-$output .= "<br>floor(4.7) " . floor(4.7) . "<br>";
+$output .= "round(4.7) " . round(4.7) . "<br>";
+$output .= "ceil(2.4) " . ceil(2.4) . "<br>";
+$output .= "floor(4.7) " . floor(4.7) . "<br>";
+
+// Square and other functions
+$output .= "<br>sqrt(64) " . sqrt(64) . "<br>";
+$output .= "abs(-100) " . abs(-100) . "<br>";
+$output .= "pow(2, 3) " . pow(2, 3) . "<br>";
+$output .= "max([2, 3, 22, 100, 6, 44]) " . max([2, 3, 22, 100, 6, 44]) . "<br>";
+$output .= "min(2, 3) " . min(2, 3) . "<br>";
+$output .= "pi() " . pi() . "<br>";
+$output .= "exp(2) " . exp(2) . "<br>";
+
+// Number formatting
+$output .= "<br>number_format(123456789.1234, 2) " . number_format(123456789, 2) . "<br>";
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
